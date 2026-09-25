@@ -56,7 +56,7 @@ Demo Co. starts FY25 with $4,750m of revenue, $884m of EBITDA and 1.8x net debt 
 | Peak revolver draw | none | none | $83m |
 | Minimum EBITDA / interest | 8.3x | 9.0x | 6.2x |
 
-In the downside, a 4% revenue drop, weaker margins and slower collections absorb $107m of working capital in the first year. Cash hits the $250m minimum and the revolver draws $66m, peaking at $83m in FY28 before the business pays it down. The company never breaches 2.3x leverage, even in the downside.
+In the downside, a 4% revenue drop, weaker margins and slower collections absorb $107m of working capital in the first year. Cash hits the $250m minimum and the revolver draws $66m, peaking at $83m in FY28 before the business pays it down. In the projections, net leverage peaks at 2.2x, in the downside in FY26.
 
 ---
 

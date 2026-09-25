@@ -66,7 +66,7 @@ BS_ITEMS = ["Cash", "Accounts receivable", "Inventory", "Other current assets", 
             "Accounts payable", "Other current liabilities", "Revolver", "Term debt", "Other long-term liabilities", "Equity"]
 
 def demo_company():
-    years = [TODAY.year - 3, TODAY.year - 2, TODAY.year - 1]
+    years = [2023, 2024, 2025]                      # fixed fiscal years for the synthetic demo
     rev = np.array([4200.0, 4480.0, 4750.0])
     is_ = pd.DataFrame({"Revenue": rev, "COGS": rev * [0.585, 0.580, 0.578], "SG&A": rev * [0.240, 0.238, 0.236],
                         "D&A": rev * 0.035, "Interest expense": [126.0, 123.0, 118.0], "Interest income": [6.0, 7.0, 8.0]},
@@ -151,7 +151,7 @@ HIS.T
 
 # %% [markdown]
 # ## 2. Drivers by scenario
-# Base-case operating drivers default to the last historical year; Upside and Downside shift growth, margins and
+# Base-case operating drivers start from the last historical year (cost ratios trimmed slightly); Upside and Downside shift growth, margins and
 # working-capital days. Edit any row.
 
 # %%
